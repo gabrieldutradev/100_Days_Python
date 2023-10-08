@@ -11,9 +11,9 @@ bill_each_person = bill_with_tip / people
 
 final_ammount = round(bill_each_person, 2)
 print(final_ammount)
-#bill_each_person = "{:.2f}".format(final_bill)
+#bill_each_person = "{:.2f}".format(final_ammount)
 #print(bill_each_person)
-#bill_each_person = "{:.3f}".format(final_bill)
+#bill_each_person = "{:.3f}".format(final_ammout)
 #print(bill_each_person)
 
 print(f"Each person should pay: ${final_ammount}")
